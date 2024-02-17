@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: darkblue;
+    margin: 40px 50px 0px 50px;
+
+}
+.logo{
+    margin: 20px 10px 20px 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orange;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs input{
+    width: 160px;
+    height: 40px;
+}
+.inputs button{
+    width: 160px;
+    height: 40px;
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+}
+.element h1{
+    font-size: 60px;
+    color: orange;
+    font-weight: bolder;
+}
+.element h2{
+    font-size: 60px;
+    font: bold;
+    padding-bottom: 50px;
+}
+.element h2 span{
+    color: orange;
+}
+.caring{
+    background-color: lightgrey;
+    padding: 20px;
+}
